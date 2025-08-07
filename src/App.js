@@ -11,7 +11,7 @@ function App() {
     setStatus('Submitting...');
     try {
       // Replace with your deployed API Gateway endpoint
-      const response = await fetch('https://xxxxxx.execute-api.region.amazonaws.com/feedback', {
+      const response = await fetch('https://ephn4vgj2f.execute-api.eu-north-1.amazonaws.com/Dev', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(feedback)
