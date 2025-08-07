@@ -14,7 +14,7 @@ function App() {
   const [status, setStatus] = useState('');
 
   // Replace with your real API Gateway endpoint
-  const API_ENDPOINT = 'https://ephn4vgj2f.execute-api.eu-north-1.amazonaws.com/Dev';
+  const API_ENDPOINT = 'https://ephn4vgj2f.execute-api.eu-north-1.amazonaws.com/Dev/FeedbackHandler';
 
   const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value });
 
